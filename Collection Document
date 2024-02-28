@@ -37,3 +37,5 @@ Collection Framework :
 
 Sets :- A set represent a group of elements just like an array set will not duplicate elements if we try put the
         same element which is already exist in array then it is not stored in the set.
+
+List :- A list are like sets,but list will allow duplicate values to be stored
