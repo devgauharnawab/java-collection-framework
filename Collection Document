@@ -1,0 +1,39 @@
+Array :
+-> so here we have seen how to store group of object into an array and retrieve them easily but there are some
+    inconveniences-
+    ->Array cannot grow dynamically this means once an array is created  its size is fixed and at runtime
+      its size cannot be increased or decreased.
+    ->we cannot store different class objects into the same array the reason is that array can store only one data
+      type elements.
+    ->Adding the object at the end of the array is easy but inserting and deleting the elements at the middle of the array is not
+      possible
+    ->Retrieving the elements from the array is easy but after retrieving the elements if we want to process them then
+      there are no methods.
+
+Collection Objects :
+
+-> A collection object or container is an object which can used to store group of any other objects
+
+Collection Framework :
+
+-> A collection framework is a class library which handle group of objects which is implemented in Java.util(utility)
+   package
+------------------------------------------------------------------------------------
+   interface                                           implemented classes          |
+------------------------------------------------------------------------------------
+   Set                                                 HashSet<T>                   |
+                                                       LinkedHashSet<T>             |
+------------------------------------------------------------------------------------
+   List                                                ArrayList<T>                 |
+                                                       Stack<T>                     |
+                                                       LinkedList<T>                |
+                                                       Vector<T>                    |
+-------------------------------------------------------------------------------------
+   Queue                                               LinkedList                   |
+-------------------------------------------------------------------------------------
+   Map                                                 HashMap<k,V>                 |
+                                                       HashTable<K,V>               |
+-------------------------------------------------------------------------------------
+
+Sets :- A set represent a group of elements just like an array set will not duplicate elements if we try put the
+        same element which is already exist in array then it is not stored in the set.
